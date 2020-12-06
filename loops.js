@@ -16,6 +16,7 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 
+
 for (let i = 0; i <= 100; i++) {
   let result = "";
   if (i % 3 == 0) {
@@ -23,7 +24,7 @@ for (let i = 0; i <= 100; i++) {
   } else if (i % 5 == 0) {
     result += "World";
   }
-  console.log(result || i); // If conditions are not met, then the number is displayed.
+  console.log(result || i); 
 }
 
 
